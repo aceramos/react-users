@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* User Box*/
+.user-box{
+	padding: 30px;
+	background-color: lightgray;
+}
+.user-box-options li{
+	float: left;
+	margin-left: 5px;
+	list-style-type: none;
+}
+
+.id-number{
+	background-color: gray;
+	padding: 5px 15px;
+	color:white;
+}
+
+.btn-edit{
+	background-color: #6662f1;
+	padding: 5px 15px; 
+}
+
+.btn-delete{
+	background-color: #ea3232;
+	padding: 5px 15px; 
+} 
+.user-info{
+	color:gray;
+	text-align: left;
+}
+/* New User Modal*/
+.new-user-content{
+	padding: 20px;
+}
+
+/* Text */
+.xs-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+} 
+
+.sm-text{
+	font-size: 12px;
+}
+
+.sym-plus{
+	color:#3caf2a;
+}
+/* Bootstrap overwrite */
+.col-md-3{
+	margin: 10px;
+	text-align: center;
+}
+
+h1, h5{
+	font-family: 'Roboto',sans-serif;
+}
+
+/* General */
+.center{
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: none;
+	color:white;
+}
+
+a{
+	color:white;
+	font-family: 'Montserrat',sans-serif;
+	display: block;
+}
+
+label{
+	font-family: 'Roboto';
+	color:gray;
+}
